@@ -1,0 +1,24 @@
+PROCEDURE Lectura(Var a,b:integer);
+  Begin 
+	Write('Uso de PRECUDERE-SUMADORA');
+	Writeln('');
+	Writeln('');
+    Write('Ingrese el primer digito: ');
+    readln(a); 
+    Write('Ingrese el segundo digito: ');
+    readln(b); 
+  End;
+
+FUNCTION Suma(a,b:integer):integer;
+  Begin
+    Suma:=a+b;
+  End;
+
+VAR a,b,c:integer;
+
+BEGIN
+  Lectura(a,b);
+  c:=Suma(a,b);
+  Writeln('');
+  Writeln('La Suma de los dos digitos es:',c);
+END.
