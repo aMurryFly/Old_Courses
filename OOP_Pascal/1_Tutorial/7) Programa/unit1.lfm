@@ -1,0 +1,26 @@
+object Form1: TForm1
+  Left = 287
+  Height = 388
+  Top = 180
+  Width = 496
+  Caption = 'Protector de pantalla '
+  ClientHeight = 388
+  ClientWidth = 496
+  Color = clSkyBlue
+  LCLVersion = '1.6.2.0'
+  object Shape1: TShape
+    Left = 228
+    Height = 40
+    Top = 174
+    Width = 40
+    Brush.Color = clLime
+    Brush.Style = bsPattern
+    Shape = stCircle
+  end
+  object Timer1: TTimer
+    Interval = 1
+    OnTimer = Timer1Timer
+    left = 24
+    top = 335
+  end
+end

@@ -1,0 +1,42 @@
+object Form1: TForm1
+  Left = 408
+  Height = 336
+  Top = 155
+  Width = 546
+  Caption = 'Form1'
+  ClientHeight = 336
+  ClientWidth = 546
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 25
+    Height = 40
+    Top = 240
+    Width = 130
+    Caption = 'Botón uno'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 37
+    Top = 88
+    Width = 79
+    Caption = 'Label1'
+    Font.Height = -27
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label1Click
+    OnDblClick = Label1DblClick
+    OnMouseEnter = Label1MouseEnter
+    OnMouseLeave = Label1MouseLeave
+  end
+  object Button2: TButton
+    Left = 360
+    Height = 40
+    Top = 240
+    Width = 130
+    Caption = 'Botón dos'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,32 @@
+object Form1: TForm1
+  Left = 383
+  Height = 240
+  Top = 169
+  Width = 320
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Hello_World.2'
+  ClientHeight = 240
+  ClientWidth = 320
+  Color = clSkyBlue
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = 'Start'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 115
+    Height = 184
+    Top = 24
+    Width = 183
+    Lines.Strings = (
+      ''
+    )
+    OnChange = Memo1Change
+    TabOrder = 1
+  end
+end

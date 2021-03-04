@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 179
+  Height = 189
+  Top = 207
+  Width = 393
+  Caption = 'Form1'
+  ClientHeight = 189
+  ClientWidth = 393
+  LCLVersion = '1.6.2.0'
+  object Edit1: TEdit
+    Left = 80
+    Height = 23
+    Top = 16
+    Width = 240
+    OnChange = Edit1Change
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 80
+    Height = 23
+    Top = 56
+    Width = 240
+    OnChange = Edit2Change
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 15
+    Top = 104
+    Width = 9
+    Caption = '...'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 41
+    Height = 15
+    Top = 16
+    Width = 32
+    Caption = 'Name'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 56
+    Width = 57
+    Caption = 'Age (Alter)'
+    ParentColor = False
+  end
+end

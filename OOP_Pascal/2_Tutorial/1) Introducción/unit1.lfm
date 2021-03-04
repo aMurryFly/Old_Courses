@@ -1,0 +1,47 @@
+object Form1: TForm1
+  Left = 407
+  Height = 300
+  Top = 202
+  Width = 400
+  Caption = 'Firstprogram'
+  ClientHeight = 300
+  ClientWidth = 400
+  LCLVersion = '1.6.0.4'
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 277
+    Width = 400
+    Panels = <>
+  end
+  object ShellTreeView1: TShellTreeView
+    Left = 0
+    Height = 97
+    Top = 0
+    Width = 400
+    Align = alTop
+    FileSortType = fstNone
+    TabOrder = 1
+    ObjectTypes = [otFolders]
+    ShellListView = ShellListView1
+  end
+  object ShellListView1: TShellListView
+    Left = 5
+    Height = 180
+    Top = 97
+    Width = 395
+    Align = alClient
+    Color = clDefault
+    TabOrder = 2
+    OnChange = ShellListView1Change
+    OnSelectItem = ShellListView1SelectItem
+    ObjectTypes = [otNonFolders]
+    ShellTreeView = ShellTreeView1
+  end
+  object Splitter1: TSplitter
+    Left = 0
+    Height = 180
+    Top = 97
+    Width = 5
+  end
+end
