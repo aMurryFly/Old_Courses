@@ -16,7 +16,7 @@ El presente repositorio incluye todo el material de los cursos que he impartido 
 - [Curso de Python POO](https://github.com/aMurryFly/Old_Courses/tree/main/OOP_Pascal)
 - [Curso de Matlab](https://github.com/aMurryFly/Old_Courses/tree/main/Bmatlab)
 - [Curso de Diseño Web](https://github.com/aMurryFly/Old_Courses/tree/main/WebDesign_Basic)
-- [Curso de Java ](https://github.com/aMurryFly/Old_Courses/tree/main/Java_course
+- [Curso de Java ](https://github.com/aMurryFly/Old_Courses/tree/main/Java_course)
 - [Curso de C ](https://github.com/aMurryFly/Old_Courses/tree/main/C_course)
 
 ### Programas necesarios 
